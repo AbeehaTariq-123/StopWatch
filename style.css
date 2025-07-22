@@ -1,0 +1,72 @@
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: hsl(208, 24%, 51%);
+    text-shadow: 4px 4px 4px rgb(28, 134, 88);
+}
+#myh1{
+    font-size: 6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(13, 37, 26);
+};
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:300px;
+    height:300px;
+    padding: 30px;
+    border:5px solid rgb(2, 7, 16);
+    border-radius: 50%;
+    background-color: azure;
+    position: relative;
+    margin-top: 30px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.5);
+}
+#top-button {
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+#display{
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(13, 57, 41);
+    text-shadow: 2px 2px 2px rgb(28, 134, 88);
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px #1c8658;
+}
+#controls button{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor:pointer;
+    color:hsl(143, 83%, 26%);
+    border:none;
+}
+#startButton{
+    background-color: white;
+}
+#startButton:hover{
+    background-color: bisque;
+}
+#stopButton{
+    background-color: white;
+}
+#stopButton:hover{
+    background-color: bisque;
+}
+#resetButton{
+    background-color: white;
+}
+#resetButton:hover{
+    background-color: bisque;
+}
